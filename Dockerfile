@@ -11,4 +11,4 @@ COPY . .
 RUN npm install
 
 # Define comando de entrada al contenedor
-CMD ["npm", "run", "start:prod"]
+CMD npm run start:prod
