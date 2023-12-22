@@ -26,4 +26,4 @@ jobs:
         run: aws lightsail push-container-image --region us-east-1 --service-name container-service-1 --label cf-deployment-2 --image cf-deployment:latest
 
       - name: Make new deployment
-        run: chmod +x deploy_lightsail.sh && .deploy_lightsail.sh
+        run: chmod +x deploy_lightsail.sh && ./deploy_lightsail.sh
