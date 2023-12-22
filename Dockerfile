@@ -10,5 +10,8 @@ COPY . .
 # Instalando dependecias necesarias
 RUN npm install
 
+# Compilar la aplicacion
+RUN npm run build
+
 # Define comando de entrada al contenedor
 CMD npm run start:prod
